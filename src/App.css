@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hmm {
+  color: rgb(80, 112, 255);
+  width: 150px;
+  margin-left: 700px;
+  font-size: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: -1000px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f65c0944f0cbf3a4f7699fc/1618389346772-2KOO2IY960JKYV501Z6O/Jumping-Smiles-2.gif?format=2500w");
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  width: 100px;
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form {
+  margin-left: 900px;
+  margin-top: 90px;
+  width: 800px;
+  height: 400px;
+}
+
+.new {
+  width: 650px;
+  height: 40px;
+  margin-left: -400px;
+}
+
+.all {
+  border: 100px solid rgb(244, 244, 246);
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5f65c0944f0cbf3a4f7699fc/1618389346772-2KOO2IY960JKYV501Z6O/Jumping-Smiles-2.gif?format=2500w");
+}
+
+.no {
+  border-left: 25px solid rgb(247, 247, 250);
+  height: 980px;
+  position: absolute;
+  left: 30%;
+  margin-left: -5px;
+  top: 90px;
+}
+
+.div {
+  width: 20rem;
+  height: 20rem;
+}
+
+.real {
+  width: 25rem;
+  height: 63rem;
+  background-color: rgb(182, 203, 242);
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgb(91, 101, 150);
+}
+
+.para {
+  margin-top: 90px;
+  color: rgb(249, 245, 249);
+}
+
+.index {
+  background-color: #90d4cb;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+/* Media Query */
+@media only screen and  (max-width: 600px) {
+  /* Add your responsive styles here */
+  .hmm {
+    width: auto;
+    margin-left: 0;
+    margin-top: 0;
   }
-  to {
-    transform: rotate(360deg);
+
+  .btn {
+    width: 80px;
+    height: 40px;
   }
+
+  .form {
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .new {
+    width: 650px;
+    height: 40px;
+    margin-left: -400px;
+  }
+  
+  .all {
+    border: 100px solid rgb(244, 244, 246);
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f65c0944f0cbf3a4f7699fc/1618389346772-2KOO2IY960JKYV501Z6O/Jumping-Smiles-2.gif?format=2500w");
+  }
+  
+  .no {
+    border-left: 25px solid rgb(247, 247, 250);
+    height: 980px;
+    position: absolute;
+    left: 30%;
+    margin-left: -5px;
+    top: 90px;
+  }
+  
+  .div {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .real {
+    width: 25rem;
+    height: 63rem;
+    background-color: rgb(182, 203, 242);
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(91, 101, 150);
+    
+  }
+  
+  .para {
+    margin-top: 90px;
+    color: rgb(249, 245, 249);
+  }
+  
+  .index {
+    background-color: #90d4cb;
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  /* Add more responsive styles as needed */
 }
